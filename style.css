@@ -9,7 +9,6 @@ body {
   overflow: hidden;
 }
 
-/* ── Header ── */
 header {
   background: #00274c;
   color: #ffcb05;
@@ -26,7 +25,6 @@ header h1 {
   opacity: 0.9;
 }
 
-/* ── Main layout ── */
 #main { flex: 1; display: flex; overflow: hidden; }
 
 #mapWrapper { flex: 1; position: relative; overflow: hidden; }
@@ -39,7 +37,6 @@ header h1 {
 }
 #mapCanvas.placing { cursor: crosshair; }
 
-/* ── Sidebar ── */
 #sidebar {
   width: 160px;
   flex-shrink: 0;
@@ -112,7 +109,6 @@ header h1 {
 }
 .clear-btn:hover { color: #888; border-color: rgba(255,255,255,0.14); }
 
-/* ── Error toast ── */
 #toast {
   position: absolute;
   bottom: 16px;
@@ -132,7 +128,6 @@ header h1 {
 }
 #toast.show { opacity: 1; }
 
-/* ── Admin panel ── */
 #adminPanel {
   display: none;
   position: absolute;
