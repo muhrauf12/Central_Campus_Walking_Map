@@ -16,11 +16,10 @@ Then open [http://localhost:8080](http://localhost:8080).
 
 ## Usage
 
-- Click **Start** or **End** in the sidebar, then click the map to place a pin
-- The shortest walkable route draws automatically once both pins are set
+- Click **Start** or **End** to place a pin
 - **Clear route** resets the pins
 
 ## Admin mode
 
-Open `http://localhost:8080?admin` to paint no-walk zones. Changes save to the browser automatically.
+ `http://localhost:8080?admin` To edit walk zone
 
